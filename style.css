@@ -16,8 +16,8 @@ html {
 
  img{
      width: 33%;
-     margin-block: 20em;
-     margin-inline: 20em;
+     margin-block: 20rem;
+     margin-inline: 20rem;
      display: inline;
      user-select: none;
  }
@@ -26,31 +26,31 @@ html {
      background: white;
      border-radius: 9px;
      width: 25%;
-     padding-inline: 1em;
+     padding-inline: 1rem;
      float: right;
      margin-top: 10%;
      margin-right: 15%;
      display: inline-block;
-     padding-bottom: 2em;
+     padding-bottom: 2rem;
      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 
  }
 
  input#mail, input#password {
      width: 100%;
-     padding: 1em;
+     padding: 1rem;
  }
 
  input#mail {
-     margin-top: 2em;
+     margin-top: 2rem;
  }
 
  input#password {
-     margin-top: 1em;
+     margin-top: 1rem;
  }
 
  button#connection{
-     margin-top: 1em;
+     margin-top: 1rem;
      text-decoration: none;
      width: 100%;
      color: white;
@@ -60,14 +60,14 @@ html {
      cursor: grab;
      font-size: 2em;
      font-weight: bold;
-     padding: 0.5em;
+     padding: 0.5rem;
  }
 
 #forgot-ps {
      text-align: center;
      color: blue;
-    margin-top: 1em;
-    font-size: 1.5em;
+     margin-top: 1rem;
+     font-size: 1.5rem;
  }
 
 a {
@@ -89,9 +89,9 @@ div#line {
 
 #create-account {
 
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 4em;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 6rem;
     text-decoration: none;
     width: 65%;
     color: white;
@@ -99,17 +99,18 @@ div#line {
     border-radius: 8px;
     border: #42b72a solid 1px;
     cursor: grab;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: bold;
-    padding: 1em;
+    padding: 1rem;
 }
 
 #div-under-menu {
     float: right;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-right: 15.5%;
     text-align: center;
     display: inline-block;
+    margin-top: -10rem;
 }
 
 span {
@@ -120,26 +121,27 @@ div#footer {
     background-color: white;
     position: absolute;
     width: 100%;
-    height: 20%;
-    bottom: -13em;
+    height: 28%;
+    bottom: -19rem;
     text-align: left;
 }
 
 div#footer ul, li {
     display: inline-block;
-    padding: 1em;
-    color: #737373;;
+    padding: 1rem;
+    color: #737373;
 }
 
 ul {
+    margin-top: 1rem;
     margin-left: 17%;
 }
 
 #plus-logo {
     position: absolute;
     width: 2%;
-    bottom: -9.5em;
-    right: 27em;
+    bottom: -4.5rem;
+    right: 18%;
 }
 
 div#line2 {
@@ -149,4 +151,25 @@ div#line2 {
     width: 70%;
     margin-inline: 10%;
     margin-left: 17%;
+}
+
+#inside-footer {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.a-footer {
+    color: #737373;
+}
+
+#copy {
+    margin-left: 18.8%;
+    color: #737373;
+}
+.a-footer:visited {
+    color: #737373;
+}
+
+.a-footer:hover {
+    text-decoration-line: underline;
 }
